@@ -1,0 +1,44 @@
+# app specific files
+assets
+!assets/AppAsset.php
+!assets/Select2Asset.php
+upload/*
+web/assets/*
+config/db.php
+vendor/*
+assets/**
+data/static/*
+
+# phpstorm project files
+.idea
+
+composer.lock
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+vendor
+# cubrid install dir
+cubrid
+
+# composer.lock in applications is ignored since it's automatically created by composer when application is installed
+apps/*/composer.lock
+
+# Mac DS_Store Files
+.DS_Store
+
+# local phpunit config
+phpunit.xml
+
+# ignore sub directory for dev installed apps and extensions
+apps
+extensions

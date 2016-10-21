@@ -1,0 +1,298 @@
+.top0    { margin-top: 0px;}
+.bottom0 { margin-bottom: 0px;}
+.left0   { margin-left: 0px;}
+.right0  { margin-right: 0px;}
+
+.top10    { margin-top: 10px;}
+.bottom10 { margin-bottom: 10px;}
+.left10   { margin-left: 10px;}
+.right10  { margin-right: 10px;}
+
+.top20    { margin-top: 20px;}
+.bottom20 { margin-bottom: 20px;}
+.left20   { margin-left: 20px;}
+.right20  { margin-right: 20px;}
+
+.top30    { margin-top: 30px;}
+.bottom30 { margin-bottom: 30px;}
+.left30   { margin-left: 30px;}
+.right30  { margin-right: 30px;}
+
+.table-bordered, .table-bordered thead:first-child tr:first-child>th:first-child, .table-bordered tbody:first-child tr:first-child>td:first-child, .table-bordered tbody:first-child tr:first-child>th:first-child{
+    border-radius: 0 !important;
+}
+
+.table-bordered thead tr:first-child > th:last-child, .table-bordered tbody:first-child tr:first-child>td:last-child, .table-bordered tbody:first-child tr:first-child>th:last-child {
+    border-radius: 0 !important;
+}
+
+.inner.table-bordered thead tr:first-child > th:first-child,
+.inner.table-bordered tbody tr:last-child > td:first-child,
+.inner.table-bordered tfoot tr:last-child > td:first-child{ border-left: 0;}
+
+.inner.table-bordered thead tr:first-child > th:last-child,
+.inner.table-bordered tbody tr:last-child > td:last-child,
+.inner.table-bordered tfoot tr:last-child > td:last-child{ border-right: 0;}
+
+.widget-title .nav-tabs li.active { border-top: 0 !important; }
+
+.widget-title .nav-tabs li.active a {
+    border-left: 0;
+    border-top: 0;
+}
+
+.widget-title .nav-tabs li a { border-left: 0;}
+
+form .dp-state-form {
+    width: 120px !important;
+    text-align: right;
+    border: 1px solid #E4E4E4;
+    box-shadow: none;
+    border-radius: 0 !important;
+    background: #FFF;
+    color: #000;
+    cursor: pointer;
+}
+
+.rl-state-form {
+    list-style-type:none;
+    margin: 0 !important;
+    padding:0;
+    overflow: hidden !important;
+    display: block;
+}
+
+.rl-state-form li {
+    float:left;
+    /* margin:0 5px 0 0; */
+    width: auto !important;
+    /* height:40px; */
+    position:relative;
+}
+
+.rl-state-form label, .rl-state-form input {
+    /* display:block; */
+    /* position:absolute; */
+    /* top:0; */
+    /* left:0; */
+    /* right:0; */
+    /* bottom:0; */
+}
+
+.rl-state-form input[type="radio"] {
+    opacity:0.011;
+    z-index:100;
+    float: left;
+    position: absolute;
+}
+
+.rl-state-form input[type="radio"]:checked + label {
+    /*background:yellow;*/
+}
+
+.rl-state-form label {
+    /*padding:5px;*/
+    /*border:1px solid #CCC;*/
+    cursor:pointer;
+    z-index:90;
+    float: left;
+    margin: 2px;
+}
+
+.rl-state-form label:hover {
+    /*background:#DDD;*/
+}
+
+.dataTables_wrapper{
+    font-size: 12px;
+}
+
+.dataTables_wrapper table tr td{
+    vertical-align: middle !important;
+}
+
+.filter.filter-page-changer {
+    font-size: 12px;
+    color: #878787;
+}
+.filter.filter-page-changer label{
+    font-weight: normal;
+}
+
+.dataTables_filter {
+    margin: 0;
+    line-height: 26px;
+    color: #878787;
+    font-size: 12px;
+    text-align: left;
+    float: left;
+}
+
+.hasDatepicker {
+    width: 100%;
+    height: 34px;
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+select[name="StripeChargeSearch[paid]"] {
+    width: 85px;
+}
+
+/*************Css start For Add Attribute tool************************/
+
+.modal-body > table > tbody > tr > td{
+    font-size:10pt;
+}
+.modal-dialog {
+    width: 54%;
+}
+.modal-body > table {
+    width: 100%;
+}
+.modal-body.modal-body thead {
+    border-bottom: 1px solid #DEDEDE;
+}
+.modal-body div form #default{
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    margin-top: 0;
+    padding: 5px;
+    background-color:#eaeaea; 
+}
+.modal-body div form div#form1,.modal-body div form div#form2{
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:#eaeaea; 
+}
+.modal-body div form .wrap-checkbox {
+    display: inline-block;
+}
+.modal-body div form .icon {
+    float: right;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.modal-body #default > input {
+    float: left;
+    margin-right: 2px;
+    margin-top: 4px;
+}
+.modal-body div form > input {
+    float: left;
+    margin-right: 4px;
+    margin-top: 4px;
+}
+.modal-body div form .wrap-checkbox > div {
+    height: 15px;
+    font-size: 13px;
+}
+.modal-body div .add_more {
+    float: right;
+}
+.modal-body > table {
+    margin-top: 15px;
+}
+.modal-body table tr th {
+    padding-right: 6px;
+    text-align: left;
+}
+.modal-body table tbody tr {
+    border-top: 1px solid #DEDEDE;
+    height: 30px;
+}
+tbody td span .fa.fa-check {
+    color: #35C475!important;
+}
+.modal-body table tbody tr td .icon > i {
+    color: #c0c0c0;
+}
+.modal-body div form span .fa.fa-plus {
+    background-color: #35C475;
+    border-radius: 50%;
+    color: #ffffff;
+    height: 19px;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+    width: 19px;
+}
+.modal-body div .row > input {
+    display: inline-block;
+    margin-bottom: 12px;
+    margin-right: 4px;
+}
+.modal-body .btn {
+    margin-top: 15px;
+}
+.modal-body div .row .icon > i {
+    color: #cd0000;
+}
+.modal-body div .row .icon > i:hover{
+    cursor: pointer;
+}
+.modal-body div form .row span .fa.fa-remove {
+    color:#eaeaea;
+    }
+.modal-content .modal-body div form div#form1, .modal-body div form div#form2 {
+    background-color: #f8f8f8;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    margin-top: 3px;
+    padding: 5px;
+}
+.algn_center{
+    text-align: center;
+}
+.modal-body div form .wrap-checkbox > div{
+    height: auto;
+}
+.wrap-checkbox div input {
+    float: left;
+    margin-right: 5px;
+}
+.wrap-checkbox div .shift-text {
+    float: left;
+    margin-top: 1px;
+    font-size: 13px;
+}
+#form1,#form2,#form3{
+    display:none;
+}
+
+.label-status{
+    padding: 4px 7px 4px 20px;
+    font-weight: bold;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    color: #8c8c8c;
+    box-shadow: 0 1px 0 #fff,inset 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.status-finalized {
+    background: rgba(0,0,0,0.07) url('../img/label-status.png') 5px -31px no-repeat;
+}
+
+.status-active, .status-packed {
+    background: rgba(0,0,0,0.07) url('../img/label-status.png') 5px -15px no-repeat;
+}
+
+.status-draft {
+    background: rgba(0,0,0,0.07) url('../img/label-status.png') 5px 1px no-repeat;
+}
+
+.status-fulfilled {
+    background: rgba(0,0,0,0.07) url('../img/label-status.png') 5px -47px no-repeat;
+}
+
+.status-deleted {
+    background: rgba(0,0,0,0.07) url('../img/label-status.png') 5px -63px no-repeat;
+}
+
+.status-void {
+    background: rgba(0,0,0,0.07) url('../img/label-status.png') 5px -79px no-repeat;
+}
+
+/*************Css End For Add Attribute tool************************/

@@ -1,0 +1,62 @@
+<?php
+
+return [
+    'adminEmail' => 'admin@example.com',
+    'campaignEmail' => [
+        'concierge@trendybutler.com' => 'Trendy Butler Concierge'
+    ],
+    'stripe' => [
+	'stripesecretkey' => 'sk_live_nl72VfsDIWSNPVDcL0D0DjlT',
+	'stripepublishkey' => 'pk_live_A3P8f14XcbdTcxnwvBrV1VnC'
+    ],
+    'sesmail' => [
+        'accesskey' => 'AKIAJ4CNFH5GNAP426YQ',
+        'secretkey' => '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'
+    ],
+    'subscription_plan' => '55',  //$55 Subscription Price
+    'coupon' => ['amount_off' =>'1000', // Discount Amount in Cents
+        'percent_off' =>''    // currently no use on trendy so null
+    ] ,
+    'tradegecko' => [
+	'clientId' => '4b2a0296aae6d5ad2d11c37a26235e08229c0a688bbcbf594998e9774bf79834',
+	'clientSecret' => '38e3f1b9f98da204efcb77a2791db8093089da8bfdae75fa22f0866fc9b64905',
+        'token' => 'a56a8ae4e156e56f5676e84580fb4211ab86c043b7b664961ae1493f0086e962',
+        'shipping_charge' => '13.50'
+    ],
+
+    'liteview' => [
+        'username' => 'trendybutler',
+        'apikey' => 'fb1a6ef987ca93ec2f7abb8fd4113f6f',
+    ],
+    'tradegeckoapi'=>[
+        '0'=>'236c41d1c88f9d4a1b814c1db9669c8294c43db944f49af7de3bee0b9a25581f',
+        '1'=>'c98c9e5098a57d4601a24fec718cd8967586b11f03e31fd0e7835876c0bdc737',
+        '2'=>'0e2aeba42311646706550a622ba8327dee6bf1d18b30743aa2a9c94664bb7fb5',
+        '3'=>'2d6d22d28589159055f5f53beeb325e336907f608f761e12d403534d9ba2db2a',
+        '4'=>'a05b05acc15594df6e8c7764f285eff4af09c40d94fb3878dffb1d7d1af616f5',
+        '5'=>'6d89130532823ca8835782f977a2d3dcada3de47387cf31297ccf3947c848149',
+        '6'=>'4e1660749bf2055e015500f9fb933dce508bf4e62f6a246dc09fe1959cfe75b7',
+        '7'=>'9a38884332094b1ffcd7f7f88113bce33f824de7de17cfcac4c4a677732dff92',
+        '8'=>'dc343f5821e28b8f284450189c840822bd3a18ff2fcafac0ffbdbbee60cc1f45',
+        '9'=>'d2dd9106aa3c699acffd6af4c3ce7f9b5eb2d988beb8111db5a6c8637aeabcdd',
+    ],
+
+    'topTypesKeywords' => [
+        'shirt',
+        'top',
+        'button',
+        'jacket',
+    ],
+    'bottomTypesKeywords' => [
+        'bottom',
+        'pants',
+        'shorts',
+        'jeans'
+    ],
+
+    //@todo delete tradegecko dev mode option and dependent code for production server. This is a rather primitive, but only option for testing at this point (June 04, 2015)
+    'tgDevMode' => false, // set this to true when testing
+
+    'orderConfirmationEmail'    => ['concierge@trendybutler.com'=>'Trendy Butler'], // for emails sent when an order is created at tradegecko
+    'shippingConfirmationEmail' => ['concierge@trendybutler.com'=>'Trendy Butler'], // for emails sent when an order is sent to liteview for packing
+];
